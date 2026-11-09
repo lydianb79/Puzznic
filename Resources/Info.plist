@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>CFBundleName</key><string>Puzznic Remastered</string>
+    <key>CFBundleDisplayName</key><string>Puzznic Remastered</string>
+    <key>CFBundleIdentifier</key><string>local.puzznic.remastered</string>
+    <key>CFBundleExecutable</key><string>PuzznicRemastered</string>
+    <key>CFBundleIconFile</key><string>AppIcon</string>
+    <key>CFBundlePackageType</key><string>APPL</string>
+    <key>CFBundleShortVersionString</key><string>1.0</string>
+    <key>CFBundleVersion</key><string>1</string>
+    <key>LSMinimumSystemVersion</key><string>13.0</string>
+    <key>LSApplicationCategoryType</key><string>public.app-category.arcade-games</string>
+    <key>NSHighResolutionCapable</key><true/>
+    <key>NSPrincipalClass</key><string>NSApplication</string>
+    <key>GCSupportsControllerUserInteraction</key><true/>
+    <key>CFBundleDocumentTypes</key>
+    <array>
+        <dict>
+            <key>CFBundleTypeName</key><string>NES ROM</string>
+            <key>CFBundleTypeRole</key><string>Viewer</string>
+            <key>CFBundleTypeExtensions</key><array><string>nes</string></array>
+        </dict>
+    </array>
+</dict>
+</plist>

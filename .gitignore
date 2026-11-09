@@ -1,0 +1,5 @@
+.build/
+build/
+*.nes
+.swiftpm/
+.DS_Store
